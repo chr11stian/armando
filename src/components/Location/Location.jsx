@@ -12,7 +12,7 @@ const Location = () => {
 
           <div className="rounded-xl ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7116.040113933064!2d83.97168138953894!3d26.90285855661167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39938d631905f7c1%3A0x189dbadf0b42da46!2sNew%20Mobile%20World!5e0!3m2!1sen!2sin!4v1700902186385!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484.89120741923915!2d-71.99099167468302!3d-13.527633482025076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd55217090b6f%3A0x669babafb99acc1b!2sCuscokintibiking!5e0!3m2!1sen!2spe!4v1732817916638!5m2!1sen!2spe"
               width="100%"
               height="360"
               allowfullscreen=""
