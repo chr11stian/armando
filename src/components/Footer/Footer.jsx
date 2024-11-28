@@ -43,12 +43,12 @@ const Footer = () => {
         </video>
         <div className="container">
           <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
-            <div className="py-8 px-4">
+            <div className="py-8 px-4 flex flex-col justify-center items-center">
               <h1 className="py- flex justify-center items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} style={{width: "180px"}} alt="" className="max-h-[60px]" />
                 {/* TravelloGo */}
               </h1>
-              <p className="text-sm">
+              <p className="text-sm text-justify-center py-2" style={{width: "70%"}}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                 facere ab hic accusamus omnis dolor voluptatibus illo, tempore
                 eum tenetur.
