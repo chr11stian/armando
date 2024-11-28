@@ -30,13 +30,15 @@ const Home = () => {
           </video>
           <Hero />
         </div>
-        <Places handleOrderPopup={handleOrderPopup} />
-        <BannerPic img={BannerImg} />
-        <BlogsComp />
-        <Banner />
-        <BannerPic img={Banner2} />
-        <Testimonial />
-        <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+       <div style={{ backgroundColor: "#eef9f3" }}>
+          <Places handleOrderPopup={handleOrderPopup} />
+          <BannerPic img={BannerImg} />
+          <BlogsComp />
+          <Banner />
+          <BannerPic img={Banner2} />
+          <Testimonial />
+          <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+        </div>
       </div>
     </>
   );
